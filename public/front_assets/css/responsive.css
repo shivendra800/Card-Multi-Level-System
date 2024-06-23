@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+	Template Name: Find your doctors, hospital and pharmacy Template
+	Author: Rainbow Design
+*/
+
+/* Medium Devices, Desktops */
+@media (max-width: 991px) {
+.header-lover .navbar-nav {
+	background-color: #151515;
+	z-index: 99;
+	position: relative;
+}
+.header-lover .navbar .nav-item {
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.header-lover .navbar .nav-item .nav-link {
+	padding: 14px 16px;
+	color: #fff !important;
+}
+.header-right-btn a {
+	padding: 0px 12px;
+	font-size: 10px;
+}
+.sticky-wrapper {
+	height: auto !important;
+}
+.sticky-wrapper .header-lover {
+	position: relative !important;
+}
+.map-box iframe {
+	height: 300px;
+}
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 767px) {
+.header-upper-link {
+	text-align: center;
+	padding: 14px 0px;
+}
+.header-upper-link li {
+	margin-right: 14px !important;
+}
+.slider .carousel-item {
+	height: 600px;
+}
+.banner-caption {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.banner-caption p {
+	display: none;
+}
+.banner-caption h5 {
+	font-size: 24px;
+	line-height: 30px;
+}
+.cta-text h2 {
+	font-size: 30px;
+}
+.cta-text a {
+	font-size: 30px;
+}
+.counter-box h3 {
+	font-size: 16px;
+}
+.comments-block ul li ul {
+	margin-left: 0px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width: 575px) {
+.header-upper-link li {
+	margin-right: 0px !important;
+	padding-bottom: 6px;
+}
+.header-upper-link li:last-child {
+	padding-bottom: 0px;
+}
+.header-call {
+	display: none;
+}
+.search-form {
+	padding: 20px;
+}
+.banner-caption h5 {
+	font-size: 20px;
+}
+.cta-text h2, .cta-text a {
+	font-size: 24px;
+}
+.testimonial-box {
+	padding: 18px;
+}
+.about-text h2 {
+	font-size: 22px;
+	line-height: 32px;
+}
+.details-page-bammer-caption-c h1 {
+	font-size: 20px;
+}
+.comments-block ul li .d-flex {
+	display: inline-block !important;
+}
+.comments-block ul li .d-flex .flex-shrink-0 {
+	display: inline-block !important;
+	margin-top: 15px;
+	margin-left: 22px;
+}
+.comments-block ul li .d-flex .flex-grow-1 {
+	margin-right: 0px;
+}
+.testimonial-box .profile-info h3 {
+	padding-bottom: 0px;
+	font-size: 14px;
+}
+.testimonial-box .profile-info span {
+	font-size: 10px;
+}
+.contact-box h4, .contact-box .icon {
+	font-size: 20px;
+}
+.contact-box p {
+	font-size: 14px;
+}
+}
